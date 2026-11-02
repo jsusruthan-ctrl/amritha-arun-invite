@@ -88,8 +88,8 @@
             align-items: center;
             padding-top: 120px;
             padding-bottom: 80px;
-            /* Added a stronger maroon overlay to fix visibility over white background areas */
-            background: linear-gradient(to bottom, rgba(88, 17, 26, 0.75) 0%, rgba(88, 17, 26, 0.95) 100%), url('https://images.unsplash.com/photo-1605280228308-59c0373df899?q=80&w=1080') no-repeat center center / cover;
+            /* Updated to use your local image file */
+            background: linear-gradient(to bottom, rgba(88, 17, 26, 0.75) 0%, rgba(88, 17, 26, 0.95) 100%), url('couple-bg.jpg') no-repeat center center / cover;
             color: #ffffff;
             text-align: center;
         }
@@ -507,9 +507,10 @@
             </div>
 
             <h1 class="person-name heading-font">Arun</h1>
-            <p class="grandparents-text italic">
-                S/o Mrs. Jaya and Mr. Aji
-            </p>
+<div class="parents-block">
+  <p class="blessing-text" style="margin-bottom: 5px;">S/o</p>
+  <h2 class="host-name" style="font-size: 1.5rem; color: #4a1c1c; margin-top: 0;">Mrs. Jaya and Mr. Aji</h2>
+</div>
             
             <!-- Small bottom divider lamp -->
             <div style="margin-top: 40px; display: flex; justify-content: center;">
@@ -584,8 +585,7 @@
         </div>
 
         <p class="compliments-label">Cordial Regards</p>
-        <h3 class="compliments-name heading-font">Aromal Senan</h3>
-
+        <h3 class="compliments-name heading-font" style="font-size: 1.2rem;">Aromal Senan</h3>
         <p class="footer-quote heading-font italic">
             "They say that love is blind but the truest of love brings in an added light..."
         </p>
